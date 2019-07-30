@@ -1,0 +1,12 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture Section: CMPT 340
+
+
+*Main> take 1 perfectNum 
+[6]
+*Main> take 2 perfectNum 
+[6,28]
+*Main> take 3 perfectNum 
+[6,28,496]

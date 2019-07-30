@@ -1,0 +1,25 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture Section: CMPT 340
+
+
+Prelude> :l problem3.hs
+[1 of 1] Compiling Main             ( problem3.hs, interpreted )
+Ok, modules loaded: Main.
+
+// 2 + 7 + 7 + 4 = 20
+*Main> luhn [1, 7, 8, 4]
+True
+
+// 8 + 7 + 7 + 3 = 25
+*Main> luhn [4, 7, 8, 3]
+False
+
+// 2 + 2 + 6 + 4 = 14
+*Main> luhn [1, 2, 3, 4]
+False
+
+// 8 + 2 + 6 + 4 = 20
+*Main> luhn [4, 2, 3, 4]
+True

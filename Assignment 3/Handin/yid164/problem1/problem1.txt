@@ -1,0 +1,31 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture Section: CMPT 340
+
+Prelude> :l problem1.hs
+[1 of 1] Compiling Main             ( problem1.hs, interpreted )
+Ok, modules loaded: Main.
+*Main> int2bin 3
+[1,1]
+*Main> int2bin 4
+[0,0,1]
+*Main> int2bin 5
+[1,0,1]
+
+
+*Main> goDouble = Main.map (*2)
+*Main> goDouble [1,2,3]
+[2,4,6]
+*Main> goDouble [4,5,6]
+[8,10,12]
+*Main> goDouble [4.5,5.1,6.2]
+[9.0,10.2,12.4]
+
+
+*Main> goIterate = Main.iterate (+1) 0
+*Main> take 10 goIterate 
+[0,1,2,3,4,5,6,7,8,9]
+*Main> goIterate = Main.iterate (*2) 1
+*Main> take 10 goIterate 
+[1,2,4,8,16,32,64,128,256,512]

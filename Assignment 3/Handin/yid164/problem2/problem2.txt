@@ -1,0 +1,22 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture Section: CMPT 340
+
+
+Prelude> :l problem2.hs
+[1 of 1] Compiling Main             ( problem2.hs, interpreted )
+*Main> altMap (+10) (+100) []
+[]
+*Main> altMap (+10) (+100) [0]
+[10]
+*Main> altMap (+10) (+100) [0,1]
+[10,101]
+*Main> altMap (+10) (+100) [0,1,2]
+[10,101,12]
+*Main> altMap (+10) (+100) [0,1,2,3]
+[10,101,12,103]
+*Main> altMap (+10) (+100) [0,1,2,3,4]
+[10,101,12,103,14]
+*Main> altMap (+10) (+100) [0,1,2,3,5]
+[10,101,12,103,15]

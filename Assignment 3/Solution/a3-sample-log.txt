@@ -1,0 +1,62 @@
+-- File Name: a3-sample-log.txt
+-- Author: David Kreiser
+-- Class: CMPT 340 Assignment 3
+-- NB: This file shows a few key examples of the output produced by calling functions in the A3
+--     sample solutions file. 
+
+-- Please let me know ASAP if you spot any errors in this solution: kreiser.david@usask.ca
+
+-- ----------------------------------------------- Problem 1 -----------------------------------------------
+
+*Main> myMap (+3) [4..7]
+[7,8,9,10]
+*Main> myMap (>2) [1,2,3]
+[False,False,True]
+*Main> myMap (>=2) [1,2,3]
+[False,True,True]
+*Main> myMap (`mod` 10) [10,15 .. 50]
+[0,5,0,5,0,5,0,5,0]
+*Main> take 10 (myIterate (+3) 4)
+[4,7,10,13,16,19,22,25,28,31]
+*Main> take 10 (myIterate (*3) 1)
+[1,3,9,27,81,243,729,2187,6561,19683]
+
+-- ----------------------------------------------- Problem 2 -----------------------------------------------
+
+*Main> altMap (+10) (+100) [0, 1, 2, 3, 4]
+[10,101,12,103,14]
+*Main> altMap (+10) (+100) [0, 1, 2, 3, 4, 5]
+[10,101,12,103,14,105]
+
+-- ----------------------------------------------- Problem 3 -----------------------------------------------
+
+*Main> luhn [1,7,8,4]
+True
+*Main> luhn [4,7,8,3]
+False
+*Main> luhn [4,9,9,2,7,3,9,8,7,1,6]
+True
+*Main> luhn [4,9,9,2,7,3,9,8,7,1,7]
+False
+*Main> luhn [1,2,3,4,5,6,7,8,1,2,3,4,5,6,7,8]
+False
+*Main> luhn [1,2,3,4,5,6,7,8,1,2,3,4,5,6,7,0]
+True
+
+-- ----------------------------------------------- Problem 4 -----------------------------------------------
+
+*Main> doubleComp
+[(1,4),(1,5),(1,6),(2,4),(2,5),(2,6),(3,4),(3,5),(3,6)]
+
+-- ----------------------------------------------- Problem 5 -----------------------------------------------
+
+*Main> take 0 perfectNums
+[]
+*Main> take 1 perfectNums
+[6]
+*Main> take 2 perfectNums
+[6,28]
+*Main> take 3 perfectNums
+[6,28,496]
+*Main> take 4 perfectNums
+[6,28,496,8128]
