@@ -1,0 +1,46 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture Section: CMPT 340
+
+
+TESTING FOR PAIR MEN AND WOMEN
+(man0,woman5)
+man0  Ranked List: woman5   woman2   woman8   woman9   woman4   woman6   woman0   woman3   woman1   woman7   
+woman5  Ranked List: man0   man8   man2   man4   man6   man1   man7   man3   man5   man9   
+
+(man1,woman2)
+man1  Ranked List: woman1   woman2   woman6   woman4   woman8   woman0   woman3   woman7   woman9   woman5   
+woman2  Ranked List: man6   man0   man9   man7   man1   man2   man3   man8   man4   man5   
+
+(man2,woman9)
+man2  Ranked List: woman6   woman2   woman7   woman5   woman0   woman9   woman4   woman8   woman3   woman1   
+woman9  Ranked List: man3   man5   man8   man4   man6   man0   man9   man7   man1   man2   
+
+(man3,woman6)
+man3  Ranked List: woman6   woman1   woman8   woman0   woman5   woman2   woman9   woman7   woman3   woman4   
+woman6  Ranked List: man3   man9   man0   man2   man8   man6   man4   man7   man1   man5   
+
+(man4,woman3)
+man4  Ranked List: woman8   woman3   woman6   woman0   woman5   woman1   woman4   woman2   woman7   woman9   
+woman3  Ranked List: man4   man5   man7   man1   man8   man2   man3   man9   man6   man0   
+
+(man5,woman7)
+man5  Ranked List: woman7   woman2   woman1   woman8   woman6   woman3   woman9   woman4   woman5   woman0   
+woman7  Ranked List: man5   man4   man3   man8   man7   man6   man9   man2   man0   man1   
+
+(man6,woman8)
+man6  Ranked List: woman1   woman8   woman2   woman9   woman4   woman3   woman7   woman0   woman6   woman5   
+woman8  Ranked List: man6   man7   man2   man4   man1   man9   man5   man8   man0   man3   
+
+(man7,woman4)
+man7  Ranked List: woman0   woman4   woman7   woman1   woman9   woman3   woman8   woman6   woman2   woman5   
+woman4  Ranked List: man3   man6   man7   man5   man4   man0   man8   man1   man2   man9   
+
+(man8,woman1)
+man8  Ranked List: woman1   woman5   woman6   woman7   woman2   woman0   woman8   woman9   woman3   woman4   
+woman1  Ranked List: man8   man2   man0   man7   man9   man5   man4   man1   man3   man6   
+
+(man9,woman0)
+man9  Ranked List: woman6   woman1   woman4   woman3   woman7   woman0   woman9   woman2   woman5   woman8   
+woman0  Ranked List: man9   man1   man3   man2   man6   man5   man4   man8   man0   man7  

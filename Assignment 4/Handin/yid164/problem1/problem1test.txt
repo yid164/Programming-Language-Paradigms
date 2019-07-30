@@ -1,0 +1,68 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture Section: CMPT 340
+
+
+// test the position 1
+Welcome to test Fib-System
+Please enter the positon of the fib number: 
+1
+The Result of test by concurrent system: 
+The position of the fibonacci number: 1
+The fiboacci number in this position: 1
+The number is tested, and the test succeed 
+
+
+
+// test the position 2
+Welcome to test Fib-System
+Please enter the positon of the fib number: 
+2
+The Result of test by concurrent system: 
+The position of the fibonacci number: 2
+The fiboacci number in this position: 1
+The number is tested, and the test succeed 
+
+
+
+// test the position 3
+Welcome to test Fib-System
+Please enter the positon of the fib number: 
+3
+The Result of test by concurrent system: 
+The position of the fibonacci number: 3
+The fiboacci number in this position: 2
+The number is tested, and the test succeed 
+
+
+
+// test the position 4
+Welcome to test Fib-System
+Please enter the positon of the fib number: 
+4
+The Result of test by concurrent system: 
+The position of the fibonacci number: 4
+The fiboacci number in this position: 3
+The number is tested, and the test succeed 
+
+
+// test the position 18
+Welcome to test Fib-System
+Please enter the positon of the fib number: 
+18
+The Result of test by concurrent system: 
+The position of the fibonacci number: 18
+The fiboacci number in this position: 2584
+The number is tested, and the test succeed 
+
+
+
+// test the position 20
+Welcome to test Fib-System
+Please enter the positon of the fib number: 
+20
+The Result of test by concurrent system: 
+The position of the fibonacci number: 20
+The fiboacci number in this position: 6765
+The number is tested, and the test succeed 
