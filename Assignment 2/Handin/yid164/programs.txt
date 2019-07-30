@@ -1,0 +1,79 @@
+#Name: Yinsheng Dong
+#Student Number: 11148648
+#NSID: yid164
+#CMPT 340
+
+Problem3.
+Prelude> :l programs.hs
+[1 of 1] Compiling Main             ( programs.hs, interpreted )
+Ok, modules loaded: Main.
+*Main> floatNum(MyFloat(2,3))
+200.0
+*Main> floatNum(MyFloat(-2,3))
+-200.0
+*Main> floatNum(MyFloat(-2,-3))
+-2.0000000e-4
+*Main> floatNum(MyFloat(329,23))
+3.2900000e22
+*Main> whole(MyFloat (329,2))
+32
+*Main> fraction(MyFloat (329,2))
+0.9
+
+Problem4.
+*Main> shuffle ["red","red","red","red"] ["Black","Black","Black","Black"]
+["red","Black","red","Black","red","Black","red","Black"]
+*Main> shuffle ["Black","Black","Black","Black"] ["red","red","red","red"]
+["Black","red","Black","red","Black","red","Black","red"]
+
+Problem5.
+*Main> split ["red","red","red","red","Black","Black","Black","Black"] 1
+(["red"],["red","red","red","Black","Black","Black","Black"])
+*Main> split ["red","red","red","red","Black","Black","Black","Black"] 2
+(["red","red"],["red","red","Black","Black","Black","Black"])
+*Main> split ["red","red","red","red","Black","Black","Black","Black"] 3
+(["red","red","red"],["red","Black","Black","Black","Black"])
+*Main> split ["red","red","red","red","Black","Black","Black","Black"] 4
+(["red","red","red","red"],["Black","Black","Black","Black"])
+*Main> split ["red","red","red","red","Black","Black","Black","Black"] 5
+(["red","red","red","red","Black"],["Black","Black","Black"])
+*Main> split ["red","red","red","red","Black","Black","Black","Black"] 6
+(["red","red","red","red","Black","Black"],["Black","Black"])
+*Main> split ["red","red","red","red","Black","Black","Black","Black"] 7
+(["red","red","red","red","Black","Black","Black"],["Black"])
+
+Problem6.
+*Main> nshuffle  0 0
+*** Exception: can not create non list
+CallStack (from HasCallStack):
+  error, called at programs.hs:51:16 in main:Main
+*Main> nshuffle  1 0
+["red","black"]
+*Main> nshuffle  1 0
+["red","black"]
+*Main> nshuffle  2 0
+["red","red","black","black"]
+*Main> nshuffle  3 0
+["red","red","red","black","black","black"]
+*Main> nshuffle  3 1
+["red","black","red","black","red","black"]
+*Main> nshuffle  3 2
+["red","black","black","red","red","black"]
+*Main> nshuffle  3 3
+["red","black","red","black","red","black"]
+*Main> nshuffle  3 4
+["red","black","black","red","red","black"]
+*Main> nshuffle  3 5
+["red","black","red","black","red","black"]
+
+Problem6.
+*Main> consecutive ['a','b','a','a','a','a','b']
+4
+*Main> consecutive ['a','a','a','a','a','a','b']
+6
+*Main> consecutive ['a','a','b','a','b','a','b']
+2
+*Main> consecutive ['b','a','b','a','b','a','b']
+1
+*Main> consecutive []
+0

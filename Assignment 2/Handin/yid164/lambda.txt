@@ -1,0 +1,23 @@
+# Name: Yinsheng Dong
+# Student Number: 11148648
+# NSID: yid164
+# Lecture Section: CMPT 340
+
+problem1.
+and true (not true)
+
+= \v.\w.(v w v) true (not true)
+= \w.(true, w, true) (not true)
+= true, (not true), true
+= \x.\y.(x, y) (not true) true
+= \x.(x) (not true)
+= not true
+= \v.\w.\x.(v x w) true
+= false
+
+problem2.
+curry' :: ((a,b) -> c) -> a -> b -> c
+curry' f = \x y -> f (x, y)
+
+uncurry' :: (a -> b -> c) -> ((a, b) -> c)
+uncurry' f = \(x, y) -> f x y
