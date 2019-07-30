@@ -1,0 +1,10 @@
+-- Name: Yinsheng Dong
+-- Student Number: 11148648
+-- NSID: yid164
+-- Lecutre: CMPT 340
+
+for the f function: a = a + 1.0 \λa.(a+1.0) a
+for the g function: b = b + 1.0 \λb.(b+1.0) b
+for the h function: c = c + 1.0 \λc.(c+1.0) c
+for the compose3 function f(g(h(x))) \ λa.(λb.(λc.(c+1.0)+1.0)+1.0)
+because the lambda calculation is application first.
