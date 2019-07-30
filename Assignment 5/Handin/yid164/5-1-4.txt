@@ -1,0 +1,57 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture Section: CMPT 340
+
+
+% Problem 1
+(a). 
+pilots(A, london), pilots(london, paris) can not be unified, because if A = london, but london can not equal to pairs. so they can not be unified
+
+(b). 
+point(X, Y, Z), point(X1, Y1, Z1) can be unified, the mgu is {X=X1, Y=Y1, Z=Z1}
+
+(c).
+letter(C), word(letter) can not be unified, because when C = letter, but word = letter, so they can not be unified
+
+(d).
+noun(alpha), alpha can not be unified, because alpha is a variable in noun()
+
+(e).
+'student', student can be unified, the mug is {}(empty)
+
+(f).
+f(X, X), f(a, b) can not be unified, because when X = a, X =b, it is not the correct substitution 
+
+(g).
+ f(X, a(b, c)), f(Z, a(Z, c)) can be unified, the mgu is {X=Z, Z=b}
+
+(h).
+ f(c, a(b, c)), f(Z, a(Z, c)) can not be unified, because of when Z = c, Z can not be b, so they can not be unified
+
+(i).
+f(X, a(b, c)), f(d, a(Z, c)) can be unified, the mgu is {X=d, Z=b}
+
+(j).g(Z, f(A, 17, B), A+B, 17), g(C, f(D, D, E), C, E) can be unified, the mgu is {Z=C, C=17+17, A=B, B=D, D=E, E=17}
+
+%Problem 4
+(a).
+?- stepmother_of(camilla, harry).
+true .
+
+(b).
+?- child_of(Children, charles).
+Children = william ;
+Children = harry.
+
+(c).
+?- stepmother_of(camilla, Children).
+Children = william ;
+Children = harry ;
+false.
+
+(d).
+?- grandchild_of(GrandParents, william), grandchild_of(GrandParents, harry).
+GrandParents = philip ;
+GrandParents = elizabeth ;
+false.
